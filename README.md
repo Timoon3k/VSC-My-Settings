@@ -59,7 +59,7 @@
 
 ## Lista wtyczek:  
 ```
-{
+
 JavaScript (ES6) code snippets
 v1.8.0
 charalampos karypidis
@@ -88,7 +88,7 @@ Tokyo Night
 v0.8.9
 enkia
 
-}
+
 ```
 
 
