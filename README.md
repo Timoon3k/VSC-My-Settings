@@ -42,15 +42,18 @@
 		}
 	},
 	"emmet.variables": {
-		"lang": "pl"
+		"lang": "pl",
+		"charset": "UTF-8"
 	},
 
 	"emmet.includeLanguages": {
-		"html": "html",
+		"orb": "html",
 		"javascript": "javascriptreact"
 	},
-	"workbench.colorTheme": "Tokyo Night Storm"
+	"workbench.colorTheme": "Tokyo Night Storm",
+	"emmet.excludeLanguages": []
 }
+
 
 ```
 
