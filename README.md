@@ -101,6 +101,28 @@ npm install --save-dev lint-staged
 Configure user snipets : javascript 
 https://snippet-generator.app/
 
+{
+  "": {
+    "prefix": "rc",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "",
+      "const $1 = () => (",
+      "  ",
+      "    <div>$0</div>",
+      "  )",
+
+      "$1.propTypes = {}",
+      "",
+      "export default $1"
+    ],
+    "description": "React Component"
+  }
+}
+
+
 
 
 
