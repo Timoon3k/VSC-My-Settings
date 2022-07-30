@@ -76,9 +76,8 @@ v9.5.0
 Sass
 v1.8.22
 
-Simple React Snippets
-v1.2.6
-Burke Holland
+ES7+ React/Redux/React-Native snippets
+v4.4.3    (rfcp - tworzenie komponentu)
 
 Tokyo Night
 v0.8.9
@@ -99,6 +98,8 @@ v5.0.4
 npx create-react-app nazwa // instaluje tez Node_modules
 npm install husky --save-dev
 npm install --save-dev lint-staged
+
+
 
 
 
