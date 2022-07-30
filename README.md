@@ -8,6 +8,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDragAndDrop": false,
   "editor.wordWrap": "on",
+  "editor.tabCompletion": "on" ,
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
   "workbench.iconTheme": "material-icon-theme",
