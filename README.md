@@ -4,55 +4,51 @@
 ## Lista ustawień: 
 ```js 
 {
-	"files.autoSave": "afterDelay",
-	"liveServer.settings.donotShowInfoMsg": true,
-	"explorer.confirmDragAndDrop": false,
-	"editor.wordWrap": "on",
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.linkedEditing": true,
-	"editor.cursorBlinking": "expand",
-	"workbench.iconTheme": "material-icon-theme",
-	"security.workspace.trust.enabled": false,
-	"breadcrumbs.enabled": false,
+	{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "expand",
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffd700",
+    "editorBracketHighlight.foreground2": "#ff00ff",
+    "editorBracketHighlight.foreground3": "#00bfff",
+    "editorBracketHighlight.foreground4": "#7cfc00",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
 
-	"editor.bracketPairColorization.enabled": true,
-	"workbench.colorCustomizations": {
-		"editorBracketHighlight.foreground1": "#ffd700",
-		"editorBracketHighlight.foreground2": "#ff00ff",
-		"editorBracketHighlight.foreground3": "#00bfff",
-		"editorBracketHighlight.foreground4": "#7cfc00",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
-	},
-
-	"prettier.arrowParens": "avoid",
-	"prettier.jsxSingleQuote": true,
-	"prettier.jsxBracketSameLine": true,
-	"prettier.semi": false,
-	"prettier.singleQuote": true,
-	"prettier.useTabs": true,
-	"prettier.printWidth": 120,
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-
-	"emmet.syntaxProfiles": {
-		"html": {
-			"inline_break": 2
-		}
-	},
-	"emmet.variables": {
-		"lang": "pl",
-		"charset": "UTF-8"
-	},
-
-	"emmet.includeLanguages": {
-		"orb": "html",
-		"javascript": "javascriptreact"
-	},
-	"workbench.colorTheme": "Tokyo Night Storm",
-	"emmet.excludeLanguages": []
+  
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 2
+    }
+  },
+  "emmet.variables": {
+    "lang": "pl",
+    "charset": "UTF-8"
+  },
+  "emmet.includeLanguages": {
+    "orb": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.excludeLanguages": [],
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "git.autofetch": true ,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": false, // required 
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional 
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "onFocusChange" // optional but recommended
+  
 }
+
 
 
 ```
@@ -88,7 +84,26 @@ Tokyo Night
 v0.8.9
 enkia
 
+ESLint
+v2.2.6
+
+Prettier ESLint
+v5.0.4
+
+
+
 
 ```
+## Lista Konfiguracji w Terminalu:  
+```
+npx create-react-app nazwa // instaluje tez Node_modules
+npm install husky --save-dev
+npm install --save-dev lint-staged
 
+
+
+
+
+
+```
 
