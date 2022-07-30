@@ -97,10 +97,18 @@ v5.0.4
 npx create-react-app nazwa // instaluje tez Node_modules
 npm install husky --save-dev
 npm install --save-dev lint-staged
+npm i styled-components
+
+
+```
+## Snippets:  
+```
+
+
 
 Configure user snipets : javascript 
 https://snippet-generator.app/
-
+ react components skrót :
 {
   "": {
     "prefix": "rc",
