@@ -41,7 +41,7 @@
   "emmet.triggerExpansionOnTab": true,
   "workbench.colorTheme": "Tokyo Night Storm",
   "git.autofetch": true ,
-  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false, // required 
   "editor.formatOnType": false, // required
   "editor.formatOnSave": true, // optional 
