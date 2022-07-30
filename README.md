@@ -78,7 +78,7 @@ Sass
 v1.8.22
 
 ES7+ React/Redux/React-Native snippets
-v4.4.3    (rfcp - tworzenie komponentu)
+v4.4.3    (rafcp - tworzenie funkcyjne komponentu)
 
 Tokyo Night
 v0.8.9
