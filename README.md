@@ -100,6 +100,8 @@ npx create-react-app nazwa // instaluje tez Node_modules
 npm install husky --save-dev
 npm install --save-dev lint-staged
 
+Configure user snipets : javascript 
+https://snippet-generator.app/
 
 
 
