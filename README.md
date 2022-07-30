@@ -4,13 +4,12 @@
 ## Lista ustawień: 
 ```js 
 {
-	{
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDragAndDrop": false,
   "editor.wordWrap": "on",
-  "editor.tabCompletion": "on" ,
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
+  "editor.tabCompletion": "on",
   "workbench.iconTheme": "material-icon-theme",
   "security.workspace.trust.enabled": false,
   "breadcrumbs.enabled": false,
@@ -23,7 +22,6 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
 
-  
   "emmet.syntaxProfiles": {
     "html": {
       "inline_break": 2
@@ -40,15 +38,15 @@
   "emmet.excludeLanguages": [],
   "emmet.triggerExpansionOnTab": true,
   "workbench.colorTheme": "Tokyo Night Storm",
-  "git.autofetch": true ,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": false, // required 
+  "git.autofetch": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": false, // required
   "editor.formatOnType": false, // required
-  "editor.formatOnSave": true, // optional 
-  "editor.formatOnSaveMode": "file", // required to format on save
-  "files.autoSave": "onFocusChange" // optional but recommended
-  
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "afterDelay" // required to format on save
 }
+
 
 
 
