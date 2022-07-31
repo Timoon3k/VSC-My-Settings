@@ -104,6 +104,7 @@ npx create-react-app nazwa // instaluje tez Node_modules
 npm install husky --save-dev
 npm install --save-dev lint-staged
 npm i styled-components
+npm i node-modules
 
 
 ```
