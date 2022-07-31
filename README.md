@@ -19,8 +19,7 @@
     "editorBracketHighlight.foreground2": "#ff00ff",
     "editorBracketHighlight.foreground3": "#00bfff",
     "editorBracketHighlight.foreground4": "#7cfc00",
-
-"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
 
   "emmet.syntaxProfiles": {
@@ -40,7 +39,20 @@
   "emmet.triggerExpansionOnTab": true,
   "workbench.colorTheme": "Tokyo Night Storm",
   "git.autofetch": true,
- 
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "files.autoSave": "afterDelay",
+  "prettier.printWidth": 150,
+  "prettier.jsxSingleQuote": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.configPath": ".prettierrc",
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true
 }
 
 
@@ -76,7 +88,20 @@ Tokyo Night
 v0.8.9
 enkia
 
+ESLint
+v2.2.6
 
+Prettier ESLint
+v5.0.4
+
+Prettier - Code formatter
+v9.5.0
+
+vscode-styled-components
+v1.7.4
+
+Node.js Modules Intellisense
+v1.5.0
 
 ```
 ## Lista Konfiguracji w Terminalu:  
@@ -87,72 +112,7 @@ npx husky install
 npx husky add .husky/pre-commit "npm run pre-commit"
 w package.json do "scripts" dodajemy: "pre-commit": "lint-staged"
 
-jsconfig.json
-```
-{
-  "compilerOptions": {
-    "baseUrl": "src"
-  },
-  "include": ["src"]
-}
-```
 
-npm install eslint --global
-
-
-.prettierrc 
-```
-{
-  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": [
-      "warn",
-      {
-        "singleQuote": true,
-        "printWidth": 150
-      }
-    ],
-    "import/first": 0
-  },
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
-  "parser": "babel-eslint"
-}
-```
-.eslintrc
-
-```
-{
-  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": [
-      "warn",
-      {
-        "singleQuote": true,
-        "printWidth": 150
-      },
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-
-    ]
- 
-    ,
-    "import/first": 0
-  },
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
-  "parser": "babel-eslint"
-}
 
 
 
@@ -165,7 +125,7 @@ npm install eslint --global
 ## Snippets:  
 ```
 
-
+```
 
 Configure user snipets : javascript 
 https://snippet-generator.app/
