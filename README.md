@@ -39,13 +39,19 @@
   "emmet.triggerExpansionOnTab": true,
   "workbench.colorTheme": "Tokyo Night Storm",
   "git.autofetch": true,
-  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-  "editor.formatOnPaste": false, // required
-  "editor.formatOnType": false, // required
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true, // required
+  "editor.formatOnType": true, // required
   "editor.formatOnSave": true, // optional
   "editor.formatOnSaveMode": "file",
-  "files.autoSave": "afterDelay" // required to format on save
+  "files.autoSave": "afterDelay",
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "eslint.format.enable": true,
+  "prettier.printWidth": 150,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true // required to format on save
 }
+
 
 
 
