@@ -100,11 +100,15 @@ v5.0.4
 ```
 ## Lista Konfiguracji w Terminalu:  
 ```
-npx create-react-app nazwa // instaluje tez Node_modules
+npx create-react-app nazwa 
 npm install husky --save-dev
 npm install --save-dev lint-staged
 npm i styled-components
+npm i prettier
 npm i node-modules
+npm i eslint-plugin-prettier
+npm i eslint-config-prettier
+
 
 
 ```
