@@ -39,17 +39,7 @@
   "emmet.triggerExpansionOnTab": true,
   "workbench.colorTheme": "Tokyo Night Storm",
   "git.autofetch": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": true, // required
-  "editor.formatOnType": true, // required
-  "editor.formatOnSave": true, // optional
-  "editor.formatOnSaveMode": "file",
-  "files.autoSave": "afterDelay",
-  "typescript.format.insertSpaceAfterTypeAssertion": true,
-  "eslint.format.enable": true,
-  "prettier.printWidth": 150,
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true // required to format on save
+ 
 }
 
 
@@ -75,9 +65,6 @@ v5.7.5
 Material Icon Theme
 v4.19.0
 
-Prettier - Code formatter
-v9.5.0
-
 Sass
 v1.8.22
 
@@ -88,24 +75,17 @@ Tokyo Night
 v0.8.9
 enkia
 
-ESLint
-v2.2.6
-
-Prettier ESLint
-v5.0.4
-
-
 
 
 ```
 ## Lista Konfiguracji w Terminalu:  
 ```
 npx create-react-app nazwa 
+npm install -g node-modules
 npm install husky --save-dev
 npm install --save-dev lint-staged
 npm i styled-components
 npm i prettier
-npm i node-modules
 npm i eslint-plugin-prettier
 npm i eslint-config-prettier
 
