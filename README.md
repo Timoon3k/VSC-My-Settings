@@ -81,7 +81,6 @@ enkia
 ## Lista Konfiguracji w Terminalu:  
 ```
 npx create-react-app nazwa 
-npm install -g node-modules
 npm install husky --save-dev
 npm install --save-dev lint-staged
 npm i styled-components
