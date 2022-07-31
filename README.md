@@ -111,6 +111,7 @@ npm install husky --save-dev
 npx husky install
 npx husky add .husky/pre-commit "npm run pre-commit"
 w package.json do "scripts" dodajemy: "pre-commit": "lint-staged"
+npm install styled-components
 
 
 
