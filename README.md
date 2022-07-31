@@ -114,7 +114,9 @@ w package.json do "scripts" dodajemy: "pre-commit": "lint-staged"
 npm install styled-components
 npm install --save-dev eslint-plugin-prettier
 npm install --save-dev --save-exact prettier
+npm i babel-eslint
 npm i @babel/eslint-parser
+
 
 
 
