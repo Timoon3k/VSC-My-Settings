@@ -19,7 +19,8 @@
     "editorBracketHighlight.foreground2": "#ff00ff",
     "editorBracketHighlight.foreground3": "#00bfff",
     "editorBracketHighlight.foreground4": "#7cfc00",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+
+"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
   },
 
   "emmet.syntaxProfiles": {
@@ -68,8 +69,8 @@ v4.19.0
 Sass
 v1.8.22
 
-ES7+ React/Redux/React-Native snippets
-v4.4.3    (rafcp - tworzenie funkcyjne komponentu)
+Reactjs code snippets
+v2.4.0
 
 Tokyo Night
 v0.8.9
@@ -80,13 +81,83 @@ enkia
 ```
 ## Lista Konfiguracji w Terminalu:  
 ```
-npx create-react-app nazwa 
+npx create-react-app nazwa --use-npm
 npm install husky --save-dev
-npm install --save-dev lint-staged
-npm i styled-components
-npm i prettier
-npm i eslint-plugin-prettier
-npm i eslint-config-prettier
+npx husky install
+npx husky add .husky/pre-commit "npm run pre-commit"
+w package.json do "scripts" dodajemy: "pre-commit": "lint-staged"
+
+jsconfig.json
+```
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
+
+npm install eslint --global
+
+
+.prettierrc 
+```
+{
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "printWidth": 150
+      }
+    ],
+    "import/first": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint"
+}
+```
+.eslintrc
+
+```
+{
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "printWidth": 150
+      },
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+
+    ]
+ 
+    ,
+    "import/first": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint"
+}
+
+
+
+
+````
 
 
 
