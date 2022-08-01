@@ -134,20 +134,21 @@ v1.5.0
     
     ```
     
-
-.prettierrc
+```
+## .prettierrc
 
 ```
+
+
 {
   "singleQuote": true,
   "printWidth": 150,
   "endOfLine": "auto"
 }
 
+
 ```
-
-
-.eslintrc
+ ##.eslintrc
 
 ```
 {
@@ -172,7 +173,7 @@ v1.5.0
 }
 
 
-```
+
 
 
 
@@ -184,7 +185,7 @@ v1.5.0
 ## Snippets:  
 ```
 
-```
+
 
 Configure user snipets : javascript 
 https://snippet-generator.app/
@@ -212,10 +213,4 @@ https://snippet-generator.app/
 
 
 
-
-
-
-
-
-```
 
