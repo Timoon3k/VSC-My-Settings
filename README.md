@@ -4,55 +4,61 @@
 ## Lista ustawień: 
 ```js 
 {
-  "liveServer.settings.donotShowInfoMsg": true,
-  "explorer.confirmDragAndDrop": false,
-  "editor.wordWrap": "on",
-  "editor.linkedEditing": true,
-  "editor.cursorBlinking": "expand",
-  "editor.tabCompletion": "on",
-  "workbench.iconTheme": "material-icon-theme",
-  "security.workspace.trust.enabled": false,
-  "breadcrumbs.enabled": false,
-  "editor.bracketPairColorization.enabled": true,
-  "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#ffd700",
-    "editorBracketHighlight.foreground2": "#ff00ff",
-    "editorBracketHighlight.foreground3": "#00bfff",
-    "editorBracketHighlight.foreground4": "#7cfc00",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
-  },
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.wordWrap": "on",
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+	"editor.tabCompletion": "on",
+	"workbench.iconTheme": "material-icon-theme",
+	"security.workspace.trust.enabled": false,
+	"breadcrumbs.enabled": false,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
 
-  "emmet.syntaxProfiles": {
-    "html": {
-      "inline_break": 2
-    }
-  },
-  "emmet.variables": {
-    "lang": "pl",
-    "charset": "UTF-8"
-  },
-  "emmet.includeLanguages": {
-    "orb": "html",
-    "javascript": "javascriptreact"
-  },
-  "emmet.excludeLanguages": [],
-  "emmet.triggerExpansionOnTab": true,
-  "workbench.colorTheme": "Tokyo Night Storm",
-  "git.autofetch": true,
-  "typescript.format.insertSpaceAfterTypeAssertion": true,
-  "files.autoSave": "afterDelay",
-  "prettier.printWidth": 150,
-  "prettier.jsxSingleQuote": true,
-  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-  "editor.formatOnType": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "prettier.configPath": ".prettierrc",
-  "prettier.requireConfig": true,
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl",
+		"charset": "UTF-8"
+	},
+	"emmet.includeLanguages": {
+		"orb": "html",
+		"javascript": "javascriptreact"
+	},
+	"emmet.excludeLanguages": [],
+	"emmet.triggerExpansionOnTab": true,
+	"workbench.colorTheme": "Tokyo Night Storm",
+	"git.autofetch": true,
+	"typescript.format.insertSpaceAfterTypeAssertion": true,
+	"files.autoSave": "afterDelay",
+	"prettier.printWidth": 150,
+	"prettier.jsxSingleQuote": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnType": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"prettier.requireConfig": true,
+	"prettier.useTabs": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.format.enable": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true
 }
 
 
