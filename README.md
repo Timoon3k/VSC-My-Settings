@@ -91,9 +91,6 @@ enkia
 ESLint
 v2.2.6
 
-Prettier ESLint
-v5.0.4
-
 Prettier - Code formatter
 v9.5.0
 
@@ -104,20 +101,80 @@ Node.js Modules Intellisense
 v1.5.0
 
 ```
-## Lista Konfiguracji w Terminalu:  
+## Lista Konfiguracji 
 ```
-npx create-react-app nazwa --use-npm
-npm install husky --save-dev
-npx husky install
-npx husky add .husky/pre-commit "npm run pre-commit"
-w package.json do "scripts" dodajemy: "pre-commit": "lint-staged"
-npm install styled-components
-npm install --save-dev eslint-plugin-prettier
-npm install --save-dev --save-exact prettier
-npm i @babel/eslint-parser
-npm install eslint @babel/core @babel/eslint-parser --save-dev
+
+"devDependencies"
+"@babel/core": "^7.18.9",
+    "@babel/parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "webpack": "^5.74.0"
+    
+    "dependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+    
+    
+    
+
+.prettierrc
+
+```
+{
+  "singleQuote": true,
+  "printWidth": 150,
+  "endOfLine": "auto"
+}
+
+```
 
 
+.eslintrc
+
+```
+{
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "printWidth": 150
+      }
+    ],
+    "import/first": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "@babel/eslint-parser"
+}
+
+
+
+
+```
 
 
 
