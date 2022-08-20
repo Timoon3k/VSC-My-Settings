@@ -4,6 +4,7 @@
 ## Lista ustawień: 
 ```js 
 {
+{
 	"liveServer.settings.donotShowInfoMsg": true,
 	"explorer.confirmDragAndDrop": false,
 	"editor.wordWrap": "on",
@@ -47,7 +48,6 @@
 	"editor.formatOnType": true,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
-	"prettier.requireConfig": true,
 	"prettier.useTabs": true,
 	"eslint.alwaysShowStatus": true,
 	"eslint.format.enable": true,
@@ -58,8 +58,16 @@
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"prettier.singleQuote": true
+
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"prettier.withNodeModules": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.templating": true
 }
+
 
 
 
