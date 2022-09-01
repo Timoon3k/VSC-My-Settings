@@ -3,9 +3,9 @@
 
 ## Lista ustawień: 
 ```js 
+
+
 {
-{
-	{
 	"liveServer.settings.donotShowInfoMsg": true,
 	"explorer.confirmDragAndDrop": false,
 	"editor.wordWrap": "on",
