@@ -5,6 +5,7 @@
 ```js 
 {
 {
+	{
 	"liveServer.settings.donotShowInfoMsg": true,
 	"explorer.confirmDragAndDrop": false,
 	"editor.wordWrap": "on",
@@ -38,7 +39,7 @@
 	},
 	"emmet.excludeLanguages": [],
 	"emmet.triggerExpansionOnTab": true,
-	"workbench.colorTheme": "Tokyo Night Storm",
+	"workbench.colorTheme": "Community Material Theme",
 	"git.autofetch": true,
 	"typescript.format.insertSpaceAfterTypeAssertion": true,
 	"files.autoSave": "afterDelay",
@@ -67,6 +68,7 @@
 	"html.format.indentInnerHtml": true,
 	"html.format.templating": true
 }
+
 
 
 
