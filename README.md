@@ -116,6 +116,13 @@ v1.7.4
 Node.js Modules Intellisense
 v1.5.0
 
+Community Material Theme
+v1.4.4
+
+GitLens — Git supercharged
+v12.2.0
+
+
 ```
 ## Lista Konfiguracji 
 ```
