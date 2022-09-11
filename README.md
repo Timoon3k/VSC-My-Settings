@@ -6,23 +6,8 @@
 
 
 {
-	"liveSassCompile.settings.formats": [
-		{
-			"format": "expanded",
-			"extensionName": ".css",
-			"savePath": "/css"
-		}
-	],
-	"liveServer.settings.donotShowInfoMsg": true,
-	"explorer.confirmDragAndDrop": false,
-	"editor.wordWrap": "on",
-	"editor.linkedEditing": true,
-	"editor.cursorBlinking": "expand",
-	"editor.tabCompletion": "on",
+	"workbench.colorTheme": "Tokyo Night Storm",
 	"workbench.iconTheme": "material-icon-theme",
-	"security.workspace.trust.enabled": false,
-	"breadcrumbs.enabled": false,
-	"editor.bracketPairColorization.enabled": true,
 	"workbench.colorCustomizations": {
 		"editorBracketHighlight.foreground1": "#ffd700",
 		"editorBracketHighlight.foreground2": "#ff00ff",
@@ -30,57 +15,49 @@
 		"editorBracketHighlight.foreground4": "#7cfc00",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
 	},
-
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"breadcrumbs.enabled": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+	"editor.wordWrap": "on",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		}
+	],
+	"liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+	"window.zoomLevel": 0,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
 	"emmet.syntaxProfiles": {
 		"html": {
 			"inline_break": 2
 		}
 	},
 	"emmet.variables": {
-		"lang": "pl",
-		"charset": "UTF-8"
+		"lang": "pl"
 	},
-	"emmet.includeLanguages": {
-		"orb": "html",
-		"javascript": "javascriptreact"
-	},
-	"emmet.excludeLanguages": [],
-	"emmet.triggerExpansionOnTab": true,
-	"workbench.colorTheme": "Tokyo Night Storm",
-	"git.autofetch": true,
-	"typescript.format.insertSpaceAfterTypeAssertion": true,
-	"files.autoSave": "afterDelay",
-	"prettier.printWidth": 120,
-	"prettier.jsxSingleQuote": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnType": true,
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"prettier.useTabs": true,
-	"eslint.alwaysShowStatus": true,
-	"eslint.format.enable": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"prettier.singleQuote": true,
-	"prettier.withNodeModules": true,
-	"html.format.indentInnerHtml": true,
-	"html.format.templating": true,
-	"workbench.editorAssociations": {
-		"*.kit": "default"
-	},
-	"files.associations": {
-		"html": "html"
-	}
+	"codesnap.containerPadding": "10px",
+	"codesnap.backgroundColor": "transparent",
+	"codesnap.boxShadow": "rgba(0, 0, 0, 0.3) 5px 5px 10px"
 }
+
 
 
 
@@ -179,7 +156,7 @@ v12.2.0
 
 {
   "singleQuote": true,
-  "printWidth": 150,
+  "printWidth": 120,
   "endOfLine": "auto"
 }
 
