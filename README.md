@@ -6,6 +6,13 @@
 
 
 {
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		}
+	],
 	"liveServer.settings.donotShowInfoMsg": true,
 	"explorer.confirmDragAndDrop": false,
 	"editor.wordWrap": "on",
@@ -39,11 +46,11 @@
 	},
 	"emmet.excludeLanguages": [],
 	"emmet.triggerExpansionOnTab": true,
-	"workbench.colorTheme": "Community Material Theme",
+	"workbench.colorTheme": "Tokyo Night Storm",
 	"git.autofetch": true,
 	"typescript.format.insertSpaceAfterTypeAssertion": true,
 	"files.autoSave": "afterDelay",
-	"prettier.printWidth": 150,
+	"prettier.printWidth": 120,
 	"prettier.jsxSingleQuote": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnType": true,
@@ -66,8 +73,15 @@
 	"prettier.singleQuote": true,
 	"prettier.withNodeModules": true,
 	"html.format.indentInnerHtml": true,
-	"html.format.templating": true
+	"html.format.templating": true,
+	"workbench.editorAssociations": {
+		"*.kit": "default"
+	},
+	"files.associations": {
+		"html": "html"
+	}
 }
+
 
 
 
