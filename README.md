@@ -116,6 +116,15 @@ v12.2.0
 Tailwind CSS IntelliSense
 v0.8.7
 
+Tailwind Snippets
+v1.0.1
+
+TypeScript Hero
+v3.0.0
+
+Typescript React code snippets
+v1.3.1
+
 
 
 ```
