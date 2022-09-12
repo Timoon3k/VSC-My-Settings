@@ -113,6 +113,10 @@ v1.4.4
 GitLens — Git supercharged
 v12.2.0
 
+Tailwind CSS IntelliSense
+v0.8.7
+
+
 
 ```
 ## Lista Konfiguracji 
