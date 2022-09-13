@@ -55,9 +55,18 @@
 	},
 	"codesnap.containerPadding": "10px",
 	"codesnap.backgroundColor": "transparent",
-	"codesnap.boxShadow": "rgba(0, 0, 0, 0.3) 5px 5px 10px"
+	"codesnap.boxShadow": "rgba(0, 0, 0, 0.3) 5px 5px 10px",
+	"workbench.startupEditor": "none",
+	"css.lint.unknownAtRules": "ignore",
+	"css.lint.unknownVendorSpecificProperties": "warning",
+	"css.lint.boxModel": "warning",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html , css , javascript"
+	}
 }
-
 
 
 
